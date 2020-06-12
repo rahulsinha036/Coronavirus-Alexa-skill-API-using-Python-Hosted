@@ -1,0 +1,71 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-IN": {
+          "summary": "Covid Hero a virtual agent that helps you know to coronavirus cases, news  and symptoms.",
+          "examplePhrases": [
+            "Alexa open covid hero",
+            "Alexa start covid hero",
+            "Alexa launch covid hero"
+          ],
+          "keywords": [
+            "coronavirus",
+            "covid19",
+            "covidhero",
+            "herocovid",
+            "coronavirushero",
+            "covid19hero",
+            "coronavirusnews",
+            "coronavirusbot",
+            "covidchatbot",
+            "chatbot",
+            "covidbot",
+            "covidherochatbot",
+            "covid19bot",
+            "covidchatbot",
+            "coronavirus19bot"
+          ],
+          "name": "Covid Hero",
+          "description": "COVID Hero a virtual agent that helps you know to coronavirus cases, news, and symptoms. You can know coronavirus cases of different countries and Indian states only. You can hear coronavirus news headlines and also know what are the symptoms of COVID-19",
+          "smallIconUri": "file://assets/images/en-IN_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-IN_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [
+          {
+            "sourceLocale": "en-IN",
+            "language": "en"
+          }
+        ],
+        "isActive": true
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "open covid hero\ncoronavirus cases in Delhi\ncoronavirus cases in India\ncoronavirus symptoms\ncoronavirus news\nwhat is coronavirus",
+      "category": "NEWS",
+      "distributionCountries": [
+        "IN"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:897730074359:function:9cc42627-cb06-4806-a4f1-95285ac51242:Release_0"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-IN": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

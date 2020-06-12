@@ -1,0 +1,307 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "covid hero",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "CovidState",
+          "slots": [
+            {
+              "name": "state",
+              "type": "India_State_Name"
+            }
+          ],
+          "samples": [
+            "covid cases in {state}",
+            "cases in {state}",
+            "covid hero {state}",
+            "give me detail of coronavirus cases in {state}",
+            "covid hero tell me coronavirus cases in {state}",
+            "covid hero cases of {state}",
+            "give me data about {state}",
+            "tell me about {state}",
+            "coronavirus cases in {state}",
+            "coronavirus case in {state}"
+          ]
+        },
+        {
+          "name": "CovidCountry",
+          "slots": [
+            {
+              "name": "country",
+              "type": "AMAZON.Country"
+            }
+          ],
+          "samples": [
+            "covid cases in {country}",
+            "cases in {country}",
+            "covid hero {country}",
+            "give me detail of coronavirus cases in {country}",
+            "covid hero tell me coronavirus cases in {country}",
+            "covid hero cases of {country}",
+            "give me data about {country}",
+            "tell me about {country}",
+            "coronavirus cases in {country}",
+            "coronavirus case in {country}"
+          ]
+        },
+        {
+          "name": "TotalCovid",
+          "slots": [],
+          "samples": [
+            "coronavirus cases in the world",
+            "coronavirus cases in world",
+            "covid cases in the world",
+            "covid cases in world",
+            "covid hero total cases in owrld",
+            "total coronavirus cases in the world"
+          ]
+        },
+        {
+          "name": "CovidHeadlines",
+          "slots": [],
+          "samples": [
+            "give me some covid news",
+            "coronavirus news",
+            "covid nineteen news",
+            "some coronavirus news",
+            "covid news",
+            "tell me some coronavirus news"
+          ]
+        },
+        {
+          "name": "Coronavirus",
+          "slots": [],
+          "samples": [
+            "where coronavirus started",
+            "covid nineteen",
+            "coronavirus",
+            "what is covid nineteen",
+            "what is coronavirus"
+          ]
+        },
+        {
+          "name": "CovidSymptoms",
+          "slots": [],
+          "samples": [
+            "coronavirus symptoms",
+            "what is coronavirus symptoms",
+            "what are coronavirus symptoms",
+            "covid nineteen symptoms",
+            "what are covid nineteen symptoms",
+            "what are covid symptoms"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Total"
+              }
+            },
+            {
+              "name": {
+                "value": "Andhra Pradesh"
+              }
+            },
+            {
+              "name": {
+                "value": "Arunachal Pradesh"
+              }
+            },
+            {
+              "name": {
+                "value": "Assam"
+              }
+            },
+            {
+              "name": {
+                "value": "Bihar"
+              }
+            },
+            {
+              "name": {
+                "value": "Chhattisgarh"
+              }
+            },
+            {
+              "name": {
+                "value": "Goa"
+              }
+            },
+            {
+              "name": {
+                "value": "Gujarat"
+              }
+            },
+            {
+              "name": {
+                "value": "Haryana"
+              }
+            },
+            {
+              "name": {
+                "value": "Himachal Pradesh"
+              }
+            },
+            {
+              "name": {
+                "value": "Jammu and Kashmir"
+              }
+            },
+            {
+              "name": {
+                "value": "Jharkhand"
+              }
+            },
+            {
+              "name": {
+                "value": "Karnataka"
+              }
+            },
+            {
+              "name": {
+                "value": "Kerala"
+              }
+            },
+            {
+              "name": {
+                "value": "Madhya Pradesh"
+              }
+            },
+            {
+              "name": {
+                "value": "Maharashtra"
+              }
+            },
+            {
+              "name": {
+                "value": "Manipur"
+              }
+            },
+            {
+              "name": {
+                "value": "Meghalaya"
+              }
+            },
+            {
+              "name": {
+                "value": "Mizoram"
+              }
+            },
+            {
+              "name": {
+                "value": "Nagaland"
+              }
+            },
+            {
+              "name": {
+                "value": "Odisha"
+              }
+            },
+            {
+              "name": {
+                "value": "Punjab"
+              }
+            },
+            {
+              "name": {
+                "value": "Rajasthan"
+              }
+            },
+            {
+              "name": {
+                "value": "Sikkim"
+              }
+            },
+            {
+              "name": {
+                "value": "Tamil Nadu"
+              }
+            },
+            {
+              "name": {
+                "value": "Telangana"
+              }
+            },
+            {
+              "name": {
+                "value": "Tripura"
+              }
+            },
+            {
+              "name": {
+                "value": "Uttar Pradesh"
+              }
+            },
+            {
+              "name": {
+                "value": "Uttarakhand"
+              }
+            },
+            {
+              "name": {
+                "value": "West Bengal"
+              }
+            },
+            {
+              "name": {
+                "value": "Andaman and Nicobar Islands"
+              }
+            },
+            {
+              "name": {
+                "value": "Chandigarh"
+              }
+            },
+            {
+              "name": {
+                "value": "Dadar and Nagar Haveli and Daman and Diu"
+              }
+            },
+            {
+              "name": {
+                "value": "Daman and Diu"
+              }
+            },
+            {
+              "name": {
+                "value": "Delhi"
+              }
+            },
+            {
+              "name": {
+                "value": "Lakshadweep"
+              }
+            },
+            {
+              "name": {
+                "value": "Puducherry"
+              }
+            }
+          ],
+          "name": "India_State_Name"
+        }
+      ]
+    }
+  },
+  "version": "15"
+}
