@@ -4,3 +4,8 @@ This skill tells you the stats of coronavirus cases in India and other parts of 
 ## API I used:
 --> https://covid-19-apis.postman.com/
 here you can get list of API for coronavirus in postman
+
+## Prerequisites:
+1. Amazon Developer Account : https://developer.amazon.com/
+2. Knowledge of Python 
+
